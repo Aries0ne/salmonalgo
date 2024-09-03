@@ -1,0 +1,471 @@
+
+.logo{
+    height: auto;
+    width: 80px;
+    
+  }
+  .nav-pills .nav-link.active {
+    background-color: transparent; /* or use any color you prefer */
+    color: #000; /* Optional: change text color if needed */
+}
+.nav-pills .nav-link {
+    font-size: 11px;
+    border: 2px dotted #000; /* Adjust border width, style, and color */
+}
+.nav-pills .nav-link:hover {
+    background-color: #E5E3FB; /* Light purple color */
+}
+.div51 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 80px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+.dotted-border-glow {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+  border: 2px dotted #000; /* Dotted border */
+  border-radius: 8px; /* Optional: to add rounded corners */
+  box-shadow: none; /* Background glow effect */
+}
+.dotted-border-glow:hover {
+  background-color: #E5E3FB; /* Background color on hover */
+  
+}
+
+.date{
+  padding: 5px;
+  width: 100%;
+  
+
+}
+
+
+
+.div52 {
+  margin-top: 10px;
+  height: 100%;
+  margin-right: 40px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+.div53 {
+  padding-top: 12px;
+  height: 100%;
+  margin-right: 40px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+.div53 input[type="date"] {
+  font-size: 14px;
+  border: 2px dotted #000; /* Change the color and width as needed */
+  padding-left: 8px;
+  padding-bottom: 2px;
+  border-radius: 8px; /* Optional: Add border-radius if you want rounded corners */
+}
+
+.div53 p {
+  padding-top: 5px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 10px;
+  width: 100%;
+
+}
+.div54 p {
+  padding-top: 5px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 10px;
+  width: 100%;
+
+}
+.div54 {
+  padding-top: 12px;
+  height: 100%;
+  margin-right: 40px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  
+}
+.div54 input[type="date"] {
+  font-size: 14px;
+  border: 2px dotted #000; /* Change the color and width as needed */
+  padding-left: 8px;
+  padding-bottom: 2px;
+  border-radius: 8px; /* Optional: Add border-radius if you want rounded corners */
+}
+.div61 {
+  margin-left: -20px;
+  margin-top: 13px;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #003E5F;
+}
+.download-btn {
+  
+  
+  text-decoration: none;
+}
+
+.download-btn img {
+  margin-left: 4.5px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.download-btn img:hover {
+  opacity: 0.8; /* Optional: adds a hover effect */
+}
+
+
+
+
+.frame6{
+    background-color: #f2e8fb7e;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.frame7{
+    
+    padding: 10px;
+    padding-bottom: 20px;
+   margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #89898950;
+}
+.headerdata{
+    width: 12.5%;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    color: #2C3546;
+    font-weight:500;
+}
+.headerdata1{
+    width: 12.5%;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    color: #2C3546;
+    
+}
+.headerdata2{
+    width: 12.5%;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    color: #FD6A65;
+    
+}
+.headerdata3{
+    border-radius: 4px;
+    width: 40px;
+    background-color: #04862d4e;
+    width: 12.5%;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    color: #04862D;
+    
+}
+  
+
+
+    @media (min-width: 991.98px) {
+      main {
+        padding-left: 240px;
+      }
+    }
+    
+    ::-webkit-scrollbar{
+      width: 2px;
+      height: 2px;
+    }
+  
+    ::-webkit-scrollbar-track{
+      background: rgb(200, 199, 199);
+    }
+    .text1{
+      font-size: 22px;
+      color: #2C3546;
+      font-weight: normal;
+    }
+    .section1{
+    
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  
+    /* Sidebar */
+    .sidebar {
+      background-color: #003E5F;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 0px 0 0; /* Height of navbar */
+      border-width: 0;
+      width: 240px;
+      z-index: 600;
+      overflow-y: auto;
+  
+  
+    }
+    .table1{
+      overflow-x: scroll;
+    }
+    
+    @media (max-width: 991.98px) {
+      .sidebar .collapse {
+        width: 100%;
+        position: fixed;
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        flex-direction: row;
+        overflow-y: auto; 
+      }
+  
+      /* .sidebar {
+        
+        position: fixed;
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+        flex-direction: row;
+        overflow-y: auto; 
+        height: 100vh; 
+      } */
+    }
+    .sidebar .active {
+      border-radius: 5px;
+      
+    }
+  
+    .text1{
+      font-size: 18px;
+      color: #2C3546;
+      font-weight: 600;
+      margin-top: 8px;
+      margin-left: 5px;
+      background: linear-gradient(to right, #06662d, #141414);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+   
+    
+    .sidebar-sticky {
+      position: relative;
+      top: 0;
+      height: calc(100vh - 48px);
+      padding-top: 0.5rem;
+      overflow-x: hidden;
+      overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+  
+    .navitem{
+      
+      color: white;
+      font-size: 12px;
+      background-color: rgba(255, 255, 255, 0);
+      margin-top: 30px;
+      border-width: 0px;
+      
+    }
+    .navitem:hover{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+    }
+
+   
+    .section4{
+     
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    /* .navitem:hover{
+      background: linear-gradient(to bottom ,#D3FFE0,#ADE3FC) ;
+      color: #2C3546;
+    } */
+  .a1{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ul1{
+    list-style: none;
+  }
+  
+  .container{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .nav1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 103vw;
+  
+    left: -10px;
+  }
+  
+  .nav1 .ul1{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .nav1 .ul1 .li1 .a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  
+  .li1{
+    width: 23vw;
+  }
+  
+  .hide1{
+    display: none;
+  }
+  
+.div1 {
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 20%;
+    padding-right: 2%;
+    width: 100%;
+}
+.button-container {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+  button {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: #F5F7F9;
+    margin: 8px;
+    border: none;
+  }
+  button:hover {
+    background-color: #F5F7F9;
+    color: black;
+    border: 2px dotted #000000;
+  }
+  
+  
+
+.section1{
+  background-color: #F5F7F9;
+
+  min-height: 100vh;
+  width: calc(100%-150px);
+}
+
+  
+
+
+
+    @media (max-width: 991.98px){
+      .hide1{
+        display: inline-block;
+      }
+    }
+    
+
+
+    @media (max-width: 480px) {
+      .div1 {
+        padding: 10px;
+      }
+      .div51 {
+        
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+      }
+      .div61 {
+        height: 50px;
+        margin-left: 3px;
+        align-items: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .div53{
+        width: 100%;
+      }
+      .div53 p{
+        width: 40%;
+      }
+      .div54{
+        width: 100%;
+      }
+      .div54 p{
+        width: 40%;
+      }
+      .div52{
+        width: 100%;
+        height: 100%;
+      }
+     
+
+      /* .headerdata{
+        min-width: 130px;
+      }
+
+      .headerdata1{
+        min-width: 130px;
+      } */
+      .tab-pane {
+        overflow-x: auto; /* Enables horizontal scrolling */
+        width: 100%; /* Ensures the content is within the viewport */
+      }
+
+      .frame6, .frame7 {
+          display: flex; /* Keeps the layout of the rows consistent */
+          min-width: 600px; /* Ensures each row is wider than the viewport for scrolling */
+      }
+      .form-select{
+        height: 40px;
+      }
+      .download-btn{
+        height: 30px;
+      }
+      .download-btn img{
+        height: 20px;
+        width: auto;
+      }
+    }

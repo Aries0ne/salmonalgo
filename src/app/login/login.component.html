@@ -1,0 +1,59 @@
+<div class="main">
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand text001" href="#">Salmon Algo</a>
+    <button
+      class="navbar-toggler but"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon " style="height: 22px; width: 20px;"></span>
+    </button>
+
+    <div
+      class="collapse navbar-collapse nav2"
+      id="navbarSupportedContent"
+      
+    >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text001" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text001" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text001" href="#">Pricing</a>
+        </li>
+      </ul>
+      <div class="div1">
+        <button
+          class="btn btn-outline-success my-2 my-sm-0 gradient-button"
+          type="submit"[routerLink]="'/login'"
+        >
+          Login
+        </button>
+        <a [routerLink]="'/signin'">Sign Up</a>
+      </div>
+    </div>
+  </nav>
+
+    <div class="log">
+        <h1>Log in to your Account</h1>
+        <p>If you dont have Account ? <span  style="color: #6851F3;">Sign up</span> </p>
+        <input class="inp" type="text" id="username1" placeholder="Email">
+        <input class="inp" type="text" id="password1" placeholder="Password">
+        <a style="color: #6851F3;">Forgot Password ?</a>
+        <button class="but1" [routerLink]="'/dashboard'" type="button" (click)="loginProcess()">Log in </button>
+        
+    </div>
+
+
+
+
+
+
+</div>

@@ -1,0 +1,160 @@
+.main{
+    background-image: url(/assets/main.png);
+    background-size: cover; /* Scale the image to cover the entire div */
+    background-position: center; /* Center the image in the div */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    padding: 0px 80px;
+    
+  }
+  .but{
+    background-color: white;
+    height: 30px;
+    width: 45px;
+    outline: none;
+    border: none;
+  }
+  .nav2{
+    justify-content: center;
+    margin-left: 210px;
+  }
+
+  .text001{
+    color: white;
+  }
+  .nav-link {
+    margin-left: 50px;
+  }
+  .div1{
+    padding-left: 250px;
+    display: flex;
+    flex-direction: row;
+  }
+  .gradient-button {
+    background: linear-gradient(to right, #1F859B 0%, #083742 100%);
+    border: none; /* Remove default border */
+    color: white; /* Text color */
+    margin: 10px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s ease; /* Smooth transition */
+  }
+  .div1 a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+  }
+
+  .log{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 80px;
+    height: calc(100% - 40px);
+    
+  }
+  .log h1{
+    color: #D7D7D7;
+  }
+  .log p{
+    color: #9C9C9C;
+  }
+  .inp{
+    width: 80%;
+    background-color: #d9d9d924;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+  }
+  .inp1{
+    width: 38%;
+    background-color: #d9d9d924;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 20px;
+  }
+  .but1{
+    width: 80%;
+    padding: 12px;
+    background-color: #003E5F;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    margin-top: 20px;
+  }
+  .div111{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  
+  
+  
+  @media (max-width: 990px){
+    .navbar{
+      padding: 0px 30px;
+      
+    }
+    .nav-link {
+      margin-left: 0px;
+    }
+    .div1 {
+      padding: 0;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      
+    }
+    .gradient-button {
+      margin: 0;
+    }
+    .log{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .nav2{
+      justify-content: center;
+      align-items: center;
+      margin-left: 150px;
+      text-align: center;
+      margin-left: 0;
+  }
+    .inp1{
+        width: 37%;
+        background-color: #d9d9d924;
+        padding: 12px;
+        border-radius: 15px;
+        border: none;
+        margin-top: 20px;
+      }
+      .div111{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        gap: 20px;
+      }
+    .main{
+    background-image: url(/assets/main.png);
+    background-size: cover; /* Scale the image to cover the entire div */
+    background-position: center; /* Center the image in the div */
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+  }

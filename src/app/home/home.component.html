@@ -1,0 +1,296 @@
+<app-navbar></app-navbar>
+<div class="image-container">
+    <img src="./assets/back.png" alt="Background Image">
+    <div class="text-overlay">
+        <div class="text-row">
+            <span class="text-item1">Salmon Algo  Software</span>
+            <span class="text-item2">Salmom has been created to empower strategy creators. How? By allowing them to automate their quant strategies and sell them to investors and traders the world over. The best part? You never have to write a single bit of code or download clunky algo trading software's.
+            </span>
+        </div>
+    </div>
+</div>
+<div class="div2">
+    <!-- <img src="./assets/bg.png" alt=""> -->
+    <h1>Advantages of Algo Trading</h1>
+    <div class="div10">
+        <div class="inner-div1 div999"  >
+            <div class="div4">
+                <div class="imu">
+                    <img src="./assets/smart.png" alt="">
+                </div>
+                <div class="div5">
+                    <h2>Precision</h2>
+                    <p>Proven Security , Establish tech stack tools standard and Enterprise edition</p>
+                </div>
+            </div>
+            <div class="div4">
+                <div class="imu">
+                    <img src="./assets/time.png" alt="">
+                </div>
+                <div class="div5">
+                    <h2>Precision</h2>
+                    <p>Proven Security , Establish tech stack tools standard and Enterprise edition</p>
+                </div>
+            </div>
+        </div>
+       
+        <div class="inner-div1">
+            <div class="div4">
+                <div class="imu">
+                    <img src="./assets/routine.png" alt="">
+                </div>
+                <div class="div5">
+                    <h2>Precision</h2>
+                    <p>Proven Security , Establish tech stack tools standard and Enterprise edition</p>
+                </div>
+            </div>
+            <div class="div4">
+                <div class="imu">
+                    <img src="./assets/effi.png" alt="">
+                </div>
+                <div class="div5">
+                    <h2>Precision</h2>
+                    <p>Proven Security , Establish tech stack tools standard and Enterprise edition</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="div003">
+    <div class="text005">Automate your trading</div>
+    <div class="text006">Take your emotion out of the equation.</div>
+  
+    <div class="div004">
+      <div class="hovcard">
+        <div
+          class="hover-card"
+          *ngFor="let card of cards"
+          (mouseover)="changeImage(card.image)"
+        >
+          <div class="header">
+            <img [src]="card.icon" alt="Card Icon" />
+          </div>
+          <div class="description">
+            <div class="title">{{ card.title }}</div>
+            <div class="desc">{{ card.description }}</div>
+          </div>
+        </div>
+      </div>
+      <div class="dashimg">
+        <img [src]="currentImage" alt="Dashboard Image" class="transition-img" />
+      </div>
+    </div>
+  </div>
+<div class="div15">
+    <h3>Our Supported Brokers</h3>
+    <p>We are partner with below brokers and provide algo service for same.</p>
+</div>
+<div class="div16">
+    <img src="./assets/Angel.png" alt="">
+    <img src="./assets/Choice.png" alt="">
+    <img src="./assets/zerodha.png" alt="">
+</div>
+<div class="div17">
+    <h1>How We Help Peple</h1>
+    <p>With serious savings, a seamless online application, and unique community benefits, our members have a lot to say about our loans!</p>
+</div>
+<div class="div20">
+    <div class="box">
+        <div class="div21">
+            <img src="./assets/comma.png" alt="">
+        </div>
+        <p>Article evident arrived express highest men did boy, Mistress sensible entirely am se, Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.</p>
+        <div class="div22">
+            <img src="./assets/pro.png" alt="">
+            <p>Amol Trikone</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="div21">
+            <img src="./assets/comma.png" alt="">
+        </div>
+        <p>Article evident arrived express highest men did boy, Mistress sensible entirely am se, Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.</p>
+        <div class="div22">
+            <img src="./assets/pro.png" alt="">
+            <p>Amol Trikone</p>
+        </div>
+    </div>
+    <div class="box">
+        <div class="div21">
+            <img src="./assets/comma.png" alt="">
+        </div>
+        <p>Article evident arrived express highest men did boy, Mistress sensible entirely am se, Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing.</p>
+        <div class="div22">
+            <img src="./assets/pro.png" alt="">
+            <p>Amol Trikone</p>
+        </div>
+    </div>
+</div>
+
+<div class="container5">
+    <div class="contact">
+      <div class="visit">
+        <div class="text0010">
+         <img src="./assets/location.png" alt=""> 
+         <div class="text0011">
+          <h1>Visit us</h1>
+          <p>Come say hello to us</p>
+          <p>Sector 35, Kamothe Navi Mumbai</p>
+        </div>
+        </div>
+        <div class="text0010">
+          <img src="./assets/call.png" alt=""> 
+          <div class="text0011">
+           <h1>Call us</h1>
+           <p>We are always available for you</p>
+           <p>+91-8602215015</p>
+         </div>
+         </div>
+    
+         <div class="social-buttons">
+          <a href="#" class="social-button github">
+            <img src="/assets/github.png" alt="GitHub">
+          </a>
+          <a href="#" class="social-button linkedin">
+            <img src="/assets/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="#" class="social-button facebook">
+            <img src="/assets/facebook.png" alt="Facebook">
+          </a>
+          <a href="#" class="social-button instagram">
+            <img src="/assets/instagram.png" alt="Instagram">
+          </a>
+        </div>
+    
+      </div>
+    
+      <div class="form1" id="contact" #contactForm>
+        <h1>Lets make your Idea into reality. <br> Lets contact us</h1>
+        <p>Tell us more about yourself and what you have got in your mind</p>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <input type="text" class="form-control" placeholder="Full name">
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us Little About the project"></textarea>
+          <button class="button1"> Lets get started</button>
+    
+    
+    
+    
+        </div>
+      </div>
+    
+    </div>
+    </div>
+
+
+<div class="div31">
+    <div class="container5">
+        <div class="faq">
+            <div class="text333">
+                <h1>How can we help
+                    you?</h1>
+                <p>Please enter your question and we will find a right
+                    answer for you.</p>
+                    <button class="contact-button">Contact Us</button>
+      
+            </div>
+            <div class="quest">
+                <h1><img src="/assets/star.png" alt="icon">What services does Prasan Infotech offer?</h1>
+                <p>We offer a range of IT services including software development, mobile app development, web development, server deployment, and IT consulting.</p>
+                <hr>
+                
+                <h1><img src="/assets/star.png" alt="icon">Do you provide technical support after project completion?</h1>
+                <p>Yes, we offer comprehensive technical support and maintenance services after project completion to ensure everything runs smoothly.</p>
+                <hr>
+            
+                <h1><img src="/assets/star.png" alt="icon">What technologies do you work with?</h1>
+                <p>We work with a wide range of technologies including Python, .NET, JavaScript, Angular, React, AWS, Azure, and more.</p>
+                <hr>
+            
+                <h1><img src="/assets/star.png" alt="icon">Do you provide cloud migration services?</h1>
+                <p>Absolutely. We offer cloud migration services to help businesses transition smoothly to cloud platforms with minimal disruption.</p>
+                <hr>
+            
+                <h1><img src="/assets/star.png" alt="icon">How do you measure the success of a project?</h1>
+                <p>We measure success based on project goals, client satisfaction, timely delivery, and the effectiveness of the implemented solutions.</p>
+                <hr>
+            </div>
+            
+      
+        </div>
+      
+      </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted" style=" background-color: #111828">
+
+  
+    <!-- Section: Links  -->
+    <section class=" foot">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mb-4 mx-auto">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+            </h6>
+            <p class="text088">
+                Salmon Algo
+            </p>
+            <p class="div41">Contact :- 8602215015</p>
+            <p class="div42">Email :- Salmonalgogmail.com</p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <!-- <div class="col-md-2 col-lg-2 mx-auto col-xl-2 mb-4 text099">
+           
+            <h6 class="text-uppercase mb-4 ">
+              Our Services
+            </h6>
+              <p>
+                <a href="ui" class="text-reset">UI/UX</a>
+              </p>
+            
+            
+            <p>
+              <a href="website" class="text-reset">Frontend Development</a>
+            </p>
+            <p>
+              <a href="website" class="text-reset">Backend Development</a>
+            </p>
+            <p>
+              <a href="app" class="text-reset">App Development</a>
+            </p>
+            <p>
+                <a href="server" class="text-reset">Server Developement</a>
+              </p>
+          </div> -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 mx-auto col-xl-3 mb-md-0 mb-4 text099">
+            <!-- Links -->
+            <h6 class="  mb-4 custom-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h6>
+            
+                
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4 text099" style="background-color:#0C4767; height: 20px; color: white;">
+      © 2021 Copyright:
+      <a class="text-reset " >Prasan Infotech.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->

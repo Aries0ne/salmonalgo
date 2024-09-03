@@ -1,0 +1,61 @@
+.navbar {
+  padding: 0px 80px;
+}
+
+.nav2 {
+  justify-content: center;
+  margin-left: 210px;
+}
+
+.nav-link {
+  margin-left: 50px;
+}
+
+.div1 {
+  padding-left: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.gradient-button {
+  background: linear-gradient(to right, #1F859B 0%, #083742 100%);
+  border: none;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.div1 a {
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+}
+
+@media (max-width: 990px) {
+  .navbar {
+    padding: 0px 30px;
+  }
+
+  .nav2 {
+    justify-content: center;
+    margin-left: 0; /* Remove margin-left to center content */
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-left: 0px;
+  }
+
+  .div1 {
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .gradient-button {
+    margin: 0;
+  }
+}

@@ -1,0 +1,373 @@
+
+.logo{
+    height: auto;
+    width: 80px;
+    
+  }
+  .nav-pills .nav-link.active {
+    background-color: transparent; /* or use any color you prefer */
+    color: #000; /* Optional: change text color if needed */
+}
+.nav-pills .nav-link {
+  font-size: 11px;
+    border: 2px dotted #000; /* Adjust border width, style, and color */
+}
+.nav-pills .nav-link:hover {
+    background-color: #E5E3FB; /* Light purple color */
+}
+
+
+    @media (min-width: 991.98px) {
+      main {
+        padding-left: 240px;
+      }
+    }
+    
+    ::-webkit-scrollbar{
+      width: 2px;
+      height: 2px;
+    }
+  
+    ::-webkit-scrollbar-track{
+      background: rgb(200, 199, 199);
+    }
+    .text1{
+      font-size: 22px;
+      color: #2C3546;
+      font-weight: normal;
+    }
+    .section1{
+      
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+  
+    /* Sidebar */
+    .sidebar {
+      background-color: #003E5F;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      padding: 0px 0 0; /* Height of navbar */
+      border-width: 0;
+      width: 240px;
+      z-index: 600;
+      overflow-y: auto;
+  
+  
+    }
+    
+    @media (max-width: 991.98px) {
+      .sidebar .collapse {
+        width: 100%;
+        position: fixed;
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+        height: 100vh;
+        flex-direction: row;
+        overflow-y: auto; 
+      }
+  
+      /* .sidebar {
+        
+        position: fixed;
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+        flex-direction: row;
+        overflow-y: auto; 
+        height: 100vh; 
+      } */
+    }
+    .sidebar .active {
+      border-radius: 5px;
+      
+    }
+  
+    .text1{
+      font-size: 18px;
+      color: #2C3546;
+      font-weight: 600;
+      margin-top: 8px;
+      margin-left: 5px;
+      background: linear-gradient(to right, #06662d, #141414);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+    
+    
+    .sidebar-sticky {
+      position: relative;
+      top: 0;
+      height: calc(100vh - 48px);
+      padding-top: 0.5rem;
+      overflow-x: hidden;
+      overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    }
+  
+    .navitem{
+      
+      color: white;
+      font-size: 12px;
+      background-color: rgba(255, 255, 255, 0);
+      margin-top: 30px;
+      border-width: 0px;
+      
+    }
+    .navitem:hover{
+        background-color: white;
+        color: black;
+        border-radius: 15px;
+    }
+
+   
+    .section4{
+     
+      
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    /* .navitem:hover{
+      background: linear-gradient(to bottom ,#D3FFE0,#ADE3FC) ;
+      color: #2C3546;
+    } */
+  .a1{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ul1{
+    list-style: none;
+  }
+  
+  .container{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .nav1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 103vw;
+  
+    left: -10px;
+  }
+  
+  .nav1 .ul1{
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .nav1 .ul1 .li1 .a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  
+  .li1{
+    width: 23vw;
+  }
+  
+  .hide1{
+    display: none;
+  }
+  
+.div1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 2%;
+    width: 100%;
+}
+.button-container {
+    
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+  button {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: #F5F7F9;
+    margin: 8px;
+    border: none;
+  }
+  button:hover {
+    background-color: #F5F7F9;
+    color: black;
+    border: 2px dotted #000000;
+  }
+  
+  
+
+.section1{
+  background-color: #F5F7F9;
+
+  min-height: 100vh;
+  width: calc(100%-150px);
+}
+.div100 {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2 {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.box {
+    margin: 20px;
+    width: 45%;
+    padding: 20px 20px;
+    border-radius: 15px;
+    background-color: #DCDCDC;
+}
+.div2 h1 {
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #003E5F;
+}
+.div3 {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: #DCDCDC;
+}
+.div3 img {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+
+}
+.div3-text {
+    color: #003E5F;
+}
+.div4 {
+    
+    display: flex;
+    flex-direction: row;
+}
+.div5 h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #3D3C3C;
+    font-weight: 100;
+}
+.div5 h2 {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #3D3C3C;
+}
+.div5 h3 {
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #272A30;
+}
+.div6 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.div6 h1 {
+    font-size: 11px;
+    color: #151515;
+}
+.div6 h2 {
+    color: #003E5F;
+    font-size: 12px;
+}
+.div7 {
+    display: flex;
+    justify-content: space-between; /* Distribute space between buttons */
+     /* Add padding if needed */
+  }
+  
+  .div8 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0px;
+    width: 32%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    padding: 2px;
+    transition: border 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .div8:hover {
+    border: none;
+    background-color: #f0f0f0;
+  }
+  .div9 {
+    display: flex;
+    width: 100%;
+    text-align: center; /* Center align the content within div9 */
+    
+  }
+  
+  .subscribe-btn {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #003E5F; /* Change to your preferred color */
+    color: #ffffff;
+    border: none;
+    padding: 4px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 8px 0 0 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-btn:hover {
+    color: #ffffff;
+    border: none;
+    background-color: #003E5F; /* Change to a darker shade for hover effect */
+  }
+  
+
+
+
+    @media (max-width: 991.98px){
+      .hide1{
+        display: inline-block;
+      }
+    }
+
+
+
+@media (max-width: 480px) {
+  .div1 {
+    padding: 10px;
+  }
+  .div2 {
+
+    padding: 20px;
+  }
+  .div100 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .box {
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+}

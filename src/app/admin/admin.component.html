@@ -1,0 +1,70 @@
+<app-sidebar></app-sidebar>
+<div class="section1">
+  <app-landingnav></app-landingnav>
+    <div class="div1">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Dashboard</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Partner Report</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Others</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                <ul class="nav nav-pills mb-3" id="pills-tab1" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="dashboard" data-bs-toggle="pill" data-bs-target="#pills-dashboard" type="button" role="tab" aria-controls="pills-dashboard" aria-selected="true">Dashboard View</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-profile-tab1" data-bs-toggle="pill" data-bs-target="#pills-profile1" type="button" role="tab" aria-controls="pills-profile1" aria-selected="false">User View</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="pills-contact-tab1" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact1" aria-selected="false">Copy Trade Details</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-position-tab1" data-bs-toggle="pill" data-bs-target="#pills-position" type="button" role="tab" aria-controls="pills-position" aria-selected="false">Open Position</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-position1-tab1" data-bs-toggle="pill" data-bs-target="#pills-position1" type="button" role="tab" aria-controls="pills-position1" aria-selected="false">Close Position</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-order-tab1" data-bs-toggle="pill" data-bs-target="#pills-order" type="button" role="tab" aria-controls="pills-order" aria-selected="false">Order Book</button>
+                      </li>
+                     
+                  </ul>
+                  <div class="tab-content" id="pills-tabContent1">
+                    <div class="tab-pane fade show active" id="pills-dashboard" role="tabpanel" aria-labelledby="dashboard"><app-dashboardview></app-dashboardview></div>
+                    <div class="tab-pane fade" id="pills-profile1" role="tabpanel" aria-labelledby="pills-profile-tab1"><app-userview></app-userview></div>
+                    <div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab1"><app-copytradedetails></app-copytradedetails></div>
+                    <div class="tab-pane fade" id="pills-position" role="tabpanel" aria-labelledby="pills-position-tab1"><app-openposition></app-openposition></div>
+                    <div class="tab-pane fade" id="pills-position1" role="tabpanel" aria-labelledby="pills-position1-tab1"><app-closeposition></app-closeposition></div>
+                    <div class="tab-pane fade" id="pills-order" role="tabpanel" aria-labelledby="pills-order-tab1"><app-closeposition></app-closeposition></div>
+
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+              <ul class="nav nav-pills mb-3" id="pills-tab2" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-admin-tab1" data-bs-toggle="pill" data-bs-target="#pills-admin" type="button" role="tab" aria-controls="pills-admin" aria-selected="true">Open Position</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-admin1-tab1" data-bs-toggle="pill" data-bs-target="#pills-admin1" type="button" role="tab" aria-controls="pills-admin1" aria-selected="false">Trade Logs</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-admin2-tab1" data-bs-toggle="pill" data-bs-target="#pills-admin2" type="button" role="tab" aria-controls="pills-admin2" aria-selected="false">Market Watch</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent2">
+                <div class="tab-pane fade show active" id="pills-admin" role="tabpanel" aria-labelledby="pills-admin-tab1"><app-adminopenposition></app-adminopenposition></div>
+                <div class="tab-pane fade" id="pills-admin1" role="tabpanel" aria-labelledby="pills-admin1-tab1"><app-admintradelogs></app-admintradelogs></div>
+                <div class="tab-pane fade" id="pills-admin2" role="tabpanel" aria-labelledby="pills-admin2-tab1"><app-adminmarketwatch></app-adminmarketwatch></div>
+            </div>
+          </div>
+    </div>
+</div>
