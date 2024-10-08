@@ -164,4 +164,13 @@
         color: #082431;
         
     }
+    .table-container {
+        overflow-x: auto;
+        width: 100%;
+    }
+    
+    .frame6, .frame7 {
+        min-width: 600px; 
+        padding: 30px;
+    }
 }

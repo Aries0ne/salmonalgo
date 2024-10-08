@@ -120,3 +120,28 @@
 
 }
 
+@media  (max-width: 600px){
+
+    .text5{
+        font-size: 12px;
+    }
+
+   .text1{
+    font-size: 17px;
+    width: 100%;
+   }
+
+   .div5{
+    width: 100%;
+    padding: 0 10px;
+   }
+
+   .select1{
+    width: 20%;
+   }
+
+   .form-select{
+    padding: .375rem 2.25rem .375rem .75rem;
+   }
+}
+

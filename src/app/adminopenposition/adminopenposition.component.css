@@ -67,18 +67,6 @@
     font-size: 14px;
 }
 
-  .nav-pills .nav-link.active {
-    background-color: transparent; /* or use any color you prefer */
-    color: #000; /* Optional: change text color if needed */
-}
-.nav-pills .nav-link {
-    font-size: 11px;
-    border: 2px dotted #000; /* Adjust border width, style, and color */
-}
-.nav-pills .nav-link:hover {
-    background-color: #E5E3FB; /* Light purple color */
-}
-
 .frame6{
     background-color: #f2e8fb7e;
     padding: 10px;
@@ -134,9 +122,20 @@
     
 }
 .button1{
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 40px;
+    height: 30px;
+    background-color: #0db342;
+    border: none;
 }
-
+.button2{
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(253, 61, 61);
+    border: none;
+}
 
 @media  (max-width: 600px){
     .section55{
@@ -180,27 +179,13 @@
         color: #082431;
         
     }
+    .table-container {
+        overflow-x: auto;
+        width: 100%;
+    }
+    
+    .frame6, .frame7 {
+        min-width: 600px; 
+        padding: 30px;
+    }
 }
-
-@media (max-width: 480px) {
-    .div1 {
-      padding: 10px;
-    }
-
-    /* .headerdata{
-      min-width: 130px;
-    }
-
-    .headerdata1{
-      min-width: 130px;
-    } */
-    .tab-pane {
-      overflow-x: auto; /* Enables horizontal scrolling */
-      width: 100%; /* Ensures the content is within the viewport */
-  }
-
-  .frame6, .frame7 {
-      display: flex; /* Keeps the layout of the rows consistent */
-      min-width: 600px; /* Ensures each row is wider than the viewport for scrolling */
-  }
-  }
